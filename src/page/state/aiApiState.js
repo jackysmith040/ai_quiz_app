@@ -1,7 +1,7 @@
 import { GoogleGenAI } from '@google/genai';
 
-const GEMINI_API_KEY = "AIzaSyA_YMI6-sTIdOftmMtB8ZhuezNO1lmncIM";
-const genAI = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || GEMINI_API_KEY });
+
+const genAI = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY});
 
 /**
  * Formats raw API response into a structured quiz schema
